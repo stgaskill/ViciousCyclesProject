@@ -1,0 +1,100 @@
+
+
+header {
+	margin-top: 0.2em;
+	color: #550509;
+	text-align: center;
+}
+
+nav {
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-size: 1.25em;
+	font-weight: bold;
+	text-align: center;
+}
+
+footer {
+	font-size: .70em;
+	text-align: center;
+	margin-top: 2em;
+}
+
+
+#container {
+    width: 80%;
+    margin-left: auto;
+	margin-right: auto;
+}
+
+nav ul {
+    padding: 0%;
+	margin-bottom: 0.5em;
+}
+
+nav li {
+	border-radius: 0;
+	border-top: solid #FFFFFF;
+	border-bottom: solid #FFFFFF;
+	margin-left: 0;
+	margin-right: 0; 
+	padding: 0;
+    width: 20%;
+    background-color: #bb2a11; 
+    display: inline;
+	float: left;
+	white-space: nowrap;
+    
+}
+
+nav li a {
+	display: inline-block;
+    padding: 0.5em;
+    color: #FFFFFF; 
+	text-decoration: none;
+}
+
+
+nav li a:link {
+	color: #FFFFFF;	
+}
+
+nav li a:hover {
+	color: #ffccff;
+    font-size: 1em;
+    background-color:solid white;
+    border: 1px solid black;
+    
+}
+
+nav li a:active {
+	color: #9900ff ;	
+}
+
+main {
+	border-style: none;
+	box-shadow: 0.5em 0.5em 0.5em #404040;
+	margin-bottom: 1em;
+    margin-top: 1em;
+    clear: left;
+    display: block;
+	font-family: Georgia, "Times New Roman", sans-serif;
+	font-size: 1em;
+	padding: 5em;
+	background-color: rgb(243, 225, 225);
+    
+}
+
+main p {
+	padding-left: 0.5em;
+    padding-right: 0.5em;
+    text-align: center;
+}
+
+body {
+	background: -moz-linear-gradient(#FFFFFF, #bb2a11);
+	background: -o-linear-gradient(#FFFFFF, #bb2a11);
+	background: -webkit-linear-gradient(#FFFFFF, #bb2a11);
+	background: linear-gradient(#FFFFFF, #bb2a11);
+	background-attachment: fixed;
+}
+
