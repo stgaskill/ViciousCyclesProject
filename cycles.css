@@ -1,4 +1,30 @@
+img{
+	max-width: 100%;
+}
 
+#man{
+	float: left;
+	opacity: 30%;
+	margin-right: 5px;
+	height: 300px;
+}
+
+#Twitter{
+	width: 25px;
+	height: 25px;
+	margin: 10px;
+	margin-bottom: 0%;
+}
+
+#FB{
+	width: 100px;
+	margin: 5px;
+	margin-bottom: 0em;
+}
+
+.Mobile{
+	display: none;
+}
 
 header {
 	margin-top: 0.2em;
@@ -17,6 +43,7 @@ footer {
 	font-size: .70em;
 	text-align: center;
 	margin-top: 2em;
+	padding: 0.5em;
 }
 
 
@@ -24,6 +51,7 @@ footer {
     width: 80%;
     margin-left: auto;
 	margin-right: auto;
+	
 }
 
 nav ul {
@@ -37,12 +65,13 @@ nav li {
 	border-bottom: solid #FFFFFF;
 	margin-left: 0;
 	margin-right: 0; 
-	padding: 0;
-    width: 20%;
+    width: 25%;
     background-color: #bb2a11; 
     display: inline;
 	float: left;
 	white-space: nowrap;
+	
+	
     
 }
 
@@ -59,35 +88,42 @@ nav li a:link {
 }
 
 nav li a:hover {
-	color: #ffccff;
+	color: #0e0c0e;
     font-size: 1em;
-    background-color:solid white;
-    border: 1px solid black;
+    background-color: white;
+    border-width: 50px;
     
 }
 
 nav li a:active {
-	color: #9900ff ;	
+	font-style: italic ;	
 }
 
 main {
 	border-style: none;
 	box-shadow: 0.5em 0.5em 0.5em #404040;
-	margin-bottom: 1em;
-    margin-top: 1em;
     clear: left;
     display: block;
 	font-family: Georgia, "Times New Roman", sans-serif;
 	font-size: 1em;
-	padding: 5em;
+	padding: 3em;
 	background-color: rgb(243, 225, 225);
+	max-width: 100%;
     
 }
 
 main p {
 	padding-left: 0.5em;
     padding-right: 0.5em;
-    text-align: center;
+	text-align: center;
+	padding-top: 1%;
+	text-anchor: end;
+}
+
+main h2{
+	padding-left: 1em;
+	padding-right: 1em;
+	text-align: center;
 }
 
 body {
@@ -98,3 +134,46 @@ body {
 	background-attachment: fixed;
 }
 
+@media only screen and (max-width: 650px){
+	.Desktop {
+		display: none;
+	}
+
+	.Mobile{
+		display: inline;
+		
+	}
+
+	li.Mobile{
+		list-style-type: none;
+	}
+
+	p.Mobile{
+		font-size: 2em;
+		margin: 1em;
+		clear: both;
+	}
+
+	h1.Mobile{
+		padding-top: 5em;
+	}
+
+	h2{
+		display: none;
+	}
+
+	nav ul {
+		padding: 0;
+		margin-top: 0.5em;
+		margin-bottom: 0.5em;
+	}
+
+	nav li{
+		background-color: #bb2a11; 
+		border-radius: 1em; 
+		list-style-type: none; 
+		margin: 0.3em; 
+		padding: 0.4em;
+		width: 100%; 
+	}
+}
